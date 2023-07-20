@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+/*stylujemy obiekt BOX*/
+#box {
+	width: 700px;/*szerokość obiektu*/
+	height: 700px;/*wysokość obiektu*/
+	margin: 0 auto;/*Marginesy służą do tworzenia przestrzeni wokół obiektu*/
+	background: linear-gradient(#FFF,#000);/*tło obiektu z gradientem 2 kolorowym*/
+	background: -webkit-linear-gradient(#FFF,#000);/*gradient dla przeglądarek z WEBKIT*/
+	background: -o-linear-gradient(#FFF,#000);/*gradient dla OPERY*/
+	background: -moz-linear-gradient(#FFF,#000);/*gradient dla MOZZILLI*/
+}
