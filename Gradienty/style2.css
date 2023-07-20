@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+#box {
+	width: 700px;
+	height: 700px;
+	margin: 0 auto;
+	background: linear-gradient(bottom,#03C,#930);
+	background: -moz-linear-gradient(bottom,#03C,#930);
+	background: -webkit-linear-gradient(bottom,#03C,#930);
+	background: -o-linear-gradient(bottom,#03C,#930);
+	background: -ms-linear-gradient(bottom,#03C,#930);
+}
+
+/*parametr BOTTOM oznacza że gradient przebiega Z DOŁU do GÓRY,
+  parametr LEFT oznacza że gradient przebiega od LEWEJ do PRAWEJ,
+  parametr RIGHT oznacza że gradient przebiega od PRAWEJ do LEWEJ.*/
