@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+#box {
+	width: 700px;
+	height: 700px;
+	margin: 0 auto;
+	background: linear-gradient(#F00,#9F0 7%,#06F,#FC0);
+}
+/*więcej punktów gradientu, 2 gradient przesuniety o 7%, każdy gradient mozemy przesuwać,
+  używając % lub PX, kombinacje mogą byc dowolne( kolory i % lub PX).*/
