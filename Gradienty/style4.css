@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+#box {
+	width: 700px;
+	height: 400px;
+	margin: 0 auto;
+	background: radial-gradient(#F00,#00F 10%,#0F0 17%,#F00);
+}
+/*RADIAL czyli kołowy gradient, kolor 2 niebieski przesuniety o 10% względem środka*/
