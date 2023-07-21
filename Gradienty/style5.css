@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+#box {
+	width: 900px;
+	height: 600px;
+	margin: 0 auto;
+	background: radial-gradient(transparent, transparent,#000 99%),
+	url(../Gradienty/image/tlo.JPG), #09F;
+}
+/*gradient kołowy z tłem obrazka i przeźroczystością dwóch pierwszych kółek od środka
+  ( atrybut TRANSPARENT tworzy przeźroczystość ).*/
