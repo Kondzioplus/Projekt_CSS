@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	font-size: 90px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+	background: -webkit-linear-gradient(#00F,#900);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+/*tekst wypełniony gradientem - żadko używane, dedykowane CHROME.
+  font-size = rozmiar czcionki,
+  text-transform = "WIELKIE lub małe" litery, atrybut UPPERCASE - WIELKIE,
+  font-weight = grubość czcionki, atrybut BOLD - GRUBE,
+  font-family = rodzaj używanej CZCIONKI,
+  background = TŁO,
+  background-clip = określa, czy tło elementu rozciąga się pod jego ramką, polem wypełnienia czy polem zawartości.*/
