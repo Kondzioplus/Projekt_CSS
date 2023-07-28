@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+#box {
+	width: 700px;
+	height: 700px;
+	margin: 0 auto;
+	background: linear-gradient(#FFF,#000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#000000'); 
+}
+/* specjalne kodowanie dla starych przegladarek IE poniżej wersji 10.
+  FILTER: progid:DXImageTransform.Microsoft.gradient(starColorstr=' ',
+          endColorstr=' ').*/
