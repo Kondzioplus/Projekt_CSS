@@ -1,0 +1,35 @@
+//zmienne
+@kolor: #0772A1;
+@szer: 500px;
+@wys: 100px;
+@tlo: #BF8430;
+@obr: 2px solid #000;//zestaw własciwości obramowania
+//nagłówek h1 w kolorze zmiennej @kolor
+h1 {
+	color: @kolor;
+}
+//akapit p w kolorze zmiennej @kolor
+p {
+	color: @kolor;
+	font-size: 25px;
+}
+// znacznik a w kolorze zmiennej @kolor
+a {
+	color: @kolor;
+}
+//znacznik DIV z parametrami SZEROKOSC/WYSOKOSC/KOLOR/TŁA/OBRAMOWANIE
+div {
+	width: @szer;
+	height: @wys;
+	background-color: @tlo;
+	border: @obr;
+}
+//działania wykonywane na ID= DWA elementu DIV
+#dwa {
+	width: (@szer + 100px);
+}
+//działania wykonywane na ID= TRZY elementu DIV
+#trzy {
+	width: (@szer + 200px);
+}
+
