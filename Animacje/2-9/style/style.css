@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #CCC;
+}
+
+#wrapper {
+	width: 80%;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+#obrazek {
+	background: none;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	
+	-moz-animation-name: przesun;
+	-moz-animation-duration: 3s;
+	-moz-animation-fill-mode: forwards;
+	
+}
+/* właściwośc ROTATE obraca strzałke*/
+@-moz-keyframes przesun {
+	from{-moz-transform: translateX(0px)rotate(0deg);}
+	to{-moz-transform: translateX(800px)rotate(90deg);}
+}
