@@ -1,0 +1,34 @@
+// klasa przechowujaca 2 parametry
+.bazowy-tekst (@rozmiar: 20px){
+	font-size: @rozmiar;
+}
+// ID wykorzystujące klase z 2 parametrami
+#a_jeden {
+	.bazowy-tekst;
+}
+//ID wykorzystujące klase z INNYM parametrem
+#a_dwa {
+	.bazowy-tekst(30px);
+}
+
+#a_trzy {
+	.bazowy-tekst(40px);
+}
+// klasa z WIELOMA parametrami
+.bazowy-div (@tlo: #000){
+	width: 500px;
+	height: 150px;
+	background-color: @tlo;
+}
+// ID przyjmujace KLASE z WIELOMA parametrami i zmienionym parametrem KOLOR
+#pierwszy {
+	.bazowy-div(#00FF00);
+}
+
+#drugi {
+	.bazowy-div(#FF0000);
+}
+
+#trzeci {
+	.bazowy-div(#00FFFF);
+}
