@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #CCC;
+}
+
+
+
+#obrazek {
+	background: none;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	
+	-moz-animation-name: przesun;
+	-moz-animation-duration: 5s;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-iteration-count: infinite; /*animacja powtarzana w nieskończoność*/
+}
+
+@-moz-keyframes przesun {
+	0%{-moz-transform: translateX(-220px);}
+	100%{-moz-transform: translateX(1900px);}
+}
