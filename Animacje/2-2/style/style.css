@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #CCC;
+}
+
+#wrapper {
+	width: 80%;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+#obrazek {
+	background: none;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	
+	-moz-animation-name: przesun;
+	-moz-animation-duration: 10s;
+}
+/* funkcja PRZESUN strzałke dla MOZILLA */
+@-moz-keyframes przesun {
+	from{-moz-transform: translateX(0px);}
+	to{-moz-transform: translateX(800px);}
+}
+
+/* animacja strzałki, działa na starych przeglądarkach MOZILLI,
+  WRAPPER = otoczka/opakowanie, tworzy przestrzeń dla animacji,
+  POSITION:RELATIV = ustawienie pozycji.
+  TOP = margines od góry.
+  LEFT = margines od prawej.
+  ANIMACJE dla MOZILLA */
+
+
+/* tworzenie klatek KLUCZOWYCH - ruch strzałki do przodu/do tyłu/do przodu w czasie 10s*/
+  @-moz-keyframes przesun {
+	0%{-moz-transform: translateX(0);}
+	33%{-moz-transform: translateX(400px);}
+	66%{-moz-transform: translateX(200px);}
+	100%{-moz-transform: translateX(400px);}
+}
+
+
