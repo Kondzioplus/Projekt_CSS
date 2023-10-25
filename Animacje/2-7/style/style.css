@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #CCC;
+}
+
+#wrapper {
+	width: 80%;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+#obrazek {
+	background: none;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	
+	-moz-animation-name: obroc;
+	-moz-animation-duration: 2s;
+}
+/* efekt 3D, obracanie strzałki */
+@-moz-keyframes obroc {
+	from{-moz-transform: rotateY(90deg)}
+	to{-moz-transform: rotateY(0deg)}
+}
