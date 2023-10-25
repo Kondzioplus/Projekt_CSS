@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #CCC;
+}
+
+#wrapper {
+	width: 80%;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+#obrazek {
+	background: none;
+	position: relative;
+	top: 50px;
+	left: 50px;
+/*skrócony zapis*/
+    -moz-animation: przesun 3s ease-in-out 1s 2 forwards;
+}
+
+@-moz-keyframes przesun {
+    from{-moz-transform: translateX(0px);}
+    to{-moz-transform: translateX(800px);}
+}
