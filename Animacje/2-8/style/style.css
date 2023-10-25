@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #CCC;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+}
+
+#wrapper {
+	width: 80%;
+	height: 1000px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.przycisk a {
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.przycisk {
+	width: 230px;
+	border-radius: 7px;
+	background-color: #06F;
+	text-align: center;
+	padding: 12px 0 12px 0;
+	-moz-animation-name: przycisk;
+	-moz-animation-duration: 2s;
+	-moz-animation-play-state: paused;/*start i stop animacji*/
+	-moz-animation-iteration-count: infinite;
+}
+/* zmiana koloru po najechaniu kursorem na przycisk*/
+.przycisk:hover {
+	-moz-animation-play-state: running;
+}
+
+@-moz-keyframes przycisk {
+	0%{background-color: #06F}
+	50%{background-color: #00C}
+	100%{background-color: #06F}
+}
