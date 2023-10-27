@@ -1,0 +1,20 @@
+// przykład użycia funkcji DARKEN (przyciemnianie) w CSS
+
+@kolor: #FF6600;
+
+div {
+	width: 500px;
+	height: 250px;
+}
+
+#box1 {
+	background-color: @kolor;
+}
+
+#box2 {
+	background-color: darken(@kolor, 30%);
+}
+
+#box3 {
+	background-color: darken(@kolor, 60%);
+}
