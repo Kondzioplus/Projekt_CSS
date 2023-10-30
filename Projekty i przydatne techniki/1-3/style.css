@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	width: 100%;
+	-moz-box-pack: center;
+}
+
+
+div {
+	height: 200px;
+	width: 200px;
+	
+}
+
+#box1 {
+	background-color: #09F; /* niebieski*/
+}
+
+#box2 {
+	background-color: #6F6; /* ziel*/
+}
+
+#box3 {
+	background-color: #FC3;/* zolty*/
+}
