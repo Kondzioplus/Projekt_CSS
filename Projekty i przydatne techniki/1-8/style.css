@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	background: #eaeaea;
+}
+
+#wrapper {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+#menu > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 480px;
+}
+
+#menu > ul > li {
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 42px;
+	width: 480px;
+	background: #CCC;
+	-moz-transition: height 0.5s ease;
+}
+
+#menu > ul > li > h3 {
+	display: block;
+	margin: 0;
+	padding: 10px;
+	height: 20px;
+	text-transform: uppercase;
+	color: #000;
+	background: #ccc;
+	border-top: 1px solid #666;
+}
+
+#menu > ul > li > div {
+	margin: 0;
+	overflow: auto;
+	padding: 10px;
+	height: 220px;
+	background: #FFF;
+}
+/* efekt HOVER czyli ROZWIJANIE wiersza po najechaniu na niego kursorem */
+#menu > ul > li:hover {
+	height: 280px;
+}
+/* zmiana koloru tła po najechaniu kursorem na pozycje w liscie */
+#menu > ul > li:hover > h3 {
+	color: #FFF;
+	background: #000;
+}
+/* zmiana wygladu kursora po najechaniu na h3 */
+#menu > ul > li > h3:hover {
+	cursor: pointer;
+}
