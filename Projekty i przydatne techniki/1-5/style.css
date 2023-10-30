@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	background: #ffffff;
+}
+
+#wrapper {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+a {
+	color: #06F;
+	padding-left: 22px;
+}
+/* przypisanie ikon JĘZYKOWYCH do odnosników (w nawiasach kwadratowych sprawdza poprawność przypisania) */
+a[hreflang='pl'] {
+	background: url(icons/pl.png) no-repeat 0 50%;
+}
+
+a[hreflang='en'] {
+	background: url(icons/en.png) no-repeat 0 50%;
+}
+
+a[hreflang='de'] {
+	background: url(icons/de.png) no-repeat 0 50%;
+}
+
