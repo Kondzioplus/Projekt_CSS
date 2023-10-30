@@ -1,0 +1,21 @@
+/* ID container o własciwościach SZEROKOŚĆ i MARGINES */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+/* KLASA column o własciwości SZEROKOŚĆ */
+.column {
+	width: 45%;
+}
+/* KLASA left o własciwości POŁOŻENIE (po lewej) */
+.left {
+	float: left;
+}
+/* KLASA right o własciwości POŁOŻENIE (po prawej) */
+.right {
+	float: right;
+}
+/* KLASA blue o właściwości KOLOR (niebieski) */
+.blue {
+	color: #06F;
+}
