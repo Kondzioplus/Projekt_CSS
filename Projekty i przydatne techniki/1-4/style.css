@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#wrapper {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+form {
+	width: 50%;
+	margin: 0 auto;
+	background: #CCC;
+	padding: 20px;
+}
+
+form label {
+	width: 200px;
+	display: block;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+form input {
+	width: 200px;
+	height: 24px;
+	line-height: 30px;
+}
+/* komunikat wyskakujacy w miejscu nieuzupełnionym */
+::-webkit-validation-bubble-message {
+	color: #900;
+	font-size: 130%;
+	padding: 15px;
+	background: #FFC;
+	border: #900 1px solid;
+}
+/* strzałka wskazujaca pole do uzupełnienia */
+::-webkit-validation-bubble-arrow  {
+	background: #FFC;
+	border: #900 1px solid;
+}
