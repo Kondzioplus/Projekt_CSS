@@ -1,0 +1,9 @@
+/* IMPORT stylów CSS */
+/* RESET stylów narzuconych przez przeglądarke */
+@import url("style/reset.css");
+/* style TYPOGRAFIĄ tekstu (formatowanie CZCIONEK)*/
+@import url("style/typography.css");
+/* style z KOLORAMI */
+@import url("style/colors.css");
+/* style z LAYOUTEM (układ strony) */
+@import url("style/layout.css");
