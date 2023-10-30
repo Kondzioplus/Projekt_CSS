@@ -1,0 +1,24 @@
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+/* SELEKTOR p z właściwosciami RODZAJ i KOLOR CZCIONKI*/
+p {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #333;
+}
+/* ID akapit1 z własciwością ROZMIAR CZCIONKI */
+#akapit1 {
+	font-size: 20px;
+}
+/* ID akapit2 z własciwością ROZMIAR CZCIONKI */
+#akapit2 {
+	font-size: 16px;
+}
+/* ID akapit3 z własciwością ROZMIAR CZCIONKI */
+#akapit3 {
+	font-size: 24px;
+}
+
+
+
