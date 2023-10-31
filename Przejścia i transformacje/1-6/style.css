@@ -1,0 +1,18 @@
+/* CSS Document */
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 900px;
+}
+/* wywołanie PRZEJSCIA z czasem */
+img {
+	position: relative;
+	top: 50px;
+	transform: transform;
+	transition-duration: 5s;
+}
+/* pseudoklasa HOVER obracajaca zdjecie o 180 stopnii */
+img:hover {
+	transform: rotateY(180deg);
+}
