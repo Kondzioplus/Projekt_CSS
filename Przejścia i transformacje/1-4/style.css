@@ -1,0 +1,30 @@
+/* CSS Document */
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 900px;
+}
+
+form input {
+	width: 150px;
+	height: 30px;
+}
+/* wywołanie PRZEJSCIA na tło */
+#pole {
+	background-color: #FFF;
+	transition: background-color 1.5s;
+}
+/* pseudoklasa FOCUS powoduje zmiane koloru tła pola tekstowego po kliknieciu w pole tekstowe */
+#pole:focus {
+	background-color: #F90;
+}
+/* wywołanie PRZEJSCIA na kolor przycisku */
+#przycisk {
+	background-color: #CCC;
+	transition: background-color 1.5s;
+}
+/* pseudoklasa ACTIVE powoduje zmiane koloru przycisku po kliknięciu w przycisk */
+#przycisk:active {
+	background-color: #F90;
+}
