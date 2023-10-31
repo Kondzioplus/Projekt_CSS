@@ -1,0 +1,17 @@
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 900px;
+	position: relative;
+}
+/* wywołanie PRZEJSCIA na obrazkach (krycie obrazka) */
+img {
+	position: absolute;
+	left: 0;
+	transition: opacity 1.5s ease;
+}
+/* pseudoklasa HOVER zmieniajaca KRYCIE obrazka (płynne przejście w drugi obrazek) */
+img:hover {
+	opacity: 0;
+}
