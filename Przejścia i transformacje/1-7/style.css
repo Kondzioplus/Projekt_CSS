@@ -1,0 +1,24 @@
+/* CSS Document */
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 900px;
+}
+/* wywołanie PRZEJŚCIA */
+img {
+	transition: transform 2s;
+}
+/* style dla obszaru aktywacyjnego */
+#wlacz {
+	font-size: 24px;
+	padding: 20px;
+	background-color: #6F6;
+	margin: 10px;
+	width: 100px;
+	text-align: center;
+}
+/* pseudoklasa HOVER wywołana na obszarze aktywacyjnym dla obrazka (hover+img oznacza zastosowanie PRZEJSCIA dla obrazka! */
+#wlacz:hover+img {
+	transform: scale(.5,.5);
+}
