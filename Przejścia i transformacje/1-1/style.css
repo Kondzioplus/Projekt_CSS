@@ -1,0 +1,17 @@
+/* CSS Document */
+#wrap {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 500px;
+    background-color: aqua;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+#wrap:hover {
+	width: 200px;
+}
+
+
+
