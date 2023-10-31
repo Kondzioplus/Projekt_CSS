@@ -1,0 +1,32 @@
+/* CSS Document */
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 900px;
+}
+/* kluczowe właściwości PRZEJŚCIA (transition) */
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: #0C3;
+	position: absolute;
+	top: 100px;
+	left: 350px;
+	transition-property: width, height, background-color;
+	transition-duration: 4s, 4s, 4s;
+	transition-delay: 2s, 2s, 0s;
+}
+/* efekt hover przedstawiony na SZEROKOŚCI WYSOKOSCI i ZMIANIE KOLORU TŁA (przejscie ZŁOŻONE) */
+.box:hover {
+	width: 100px;
+	height: 100px;
+	background-color: #F00;
+}
+
+
+
+
+
+
+

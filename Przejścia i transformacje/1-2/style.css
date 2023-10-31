@@ -1,0 +1,30 @@
+/* CSS Document */
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 900px;
+}
+/* własciwości przejscia (transition) */
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: #0C3;
+	position: absolute;
+	top: 100px;
+	left: 350px;
+	transition-property: height;
+	transition-duration: 4s;
+	transition-delay: 2s;
+	transition-timing-function: ease-in;
+	
+}
+
+.box:hover {
+	height: 100px;
+}
+
+
+
+
+
