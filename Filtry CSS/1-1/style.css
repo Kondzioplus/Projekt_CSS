@@ -1,0 +1,11 @@
+/* właściwości obrazka */
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 900px;
+}
+/* Filtr przejrzystosci zastosowany na obrazku */
+img {
+	filter: opacity(.5);
+}
