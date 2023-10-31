@@ -1,0 +1,17 @@
+/* CSS Document */
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 900px;
+}
+/* wywołanie PRZEJSCIA na obrazku */
+img {
+	position: relative;
+	top: 50px;
+	transition: transform 2s;
+}
+/* pseudoklada HOVER z własciwoscią ROTATE (obrót) i właściwością SCALE (skala) */
+img:hover {
+	transform: rotate(180deg) scale(.6,.6);
+}
